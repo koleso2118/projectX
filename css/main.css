@@ -6,7 +6,7 @@
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500&family=Roboto:wght@100&family=Rubik+Moonrocks&display=swap');
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -16,7 +16,40 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
-
+.button {
+  border: 1px solid pink;
+}
+.button.main {
+  font-weight: bold;
+}
+.button.additional {
+  border-radius: 10px;
+  font-weight: 100;
+}
+#test.amazing-text {
+  font-family: 'Rubik Moonrocks', cursive;
+  color: blue;
+}
+#test.amazing-text .a {
+  color: #555555;
+}
+#test.amazing-text .b {
+  color: firebrick;
+}
+#test.amazing-text.not-amazing {
+  font-family: 'Rubik Moonrocks', cursive;
+  color: green;
+}
+#test {
+  /*color: yellow;*/
+}
+p {
+  color: red;
+}
+.not-amazing {
+  font-family: cursive;
+  color: #222222;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
